@@ -79,3 +79,22 @@
   }
   
   .overflow-hidden { overflow: hidden; }
+
+  /**Custom Styles Here**/
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+  }
+
+  .footer-image {
+      height: 150px;
+  }
+
+  .content-section {
+    width: 80%;
+    min-height: 300px;
+    border-radius: 21px;
+    margin-bottom: 4em;
+  }
