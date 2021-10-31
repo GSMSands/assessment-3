@@ -44,6 +44,28 @@ html {
       flex: 1;
     }
   }
+
+  /*Navbar Expand custom breakpoint*/
+  @media (min-width: 1020px){
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+}
   
   .overflow-hidden { overflow: hidden; }
 
@@ -84,4 +106,8 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+}
+
+h1, h2 {
+  font-family: 'Bebas Neue', cursive;
 }
