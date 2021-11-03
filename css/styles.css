@@ -108,6 +108,6 @@ body {
   flex-direction: column;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Bebas Neue', cursive;
 }
