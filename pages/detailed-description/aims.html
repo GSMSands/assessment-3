@@ -79,8 +79,8 @@
           </div>
         </nav>
       </header>
-  
-      
+
+
       <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 content">
         <div class="bg-light w-100 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div class="my-3 p-3">
@@ -88,13 +88,29 @@
           </div>
           <!--Content-->
           <div class="bg-white box-shadow mx-auto content-section">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p>Our main Aim for this project was to create an application that empowered consumers to eat healthy food whilst simultaneously saving time and money. The target demographic that we are aiming to reach will have access to the most economically friendly, quick, and easy meals. Simultaneously we are aiming to stimulate the local economy through helping local businesses gain more customers via increased foot traffic from users using our application. We aim to build a platform where they can market their products, as well as having the most up to date prices, sales, and locations for stores in the local area. Our application idea also includes a recipes section where users can select appetising recipes and choose ingredients accordingly at the best prices. Having a selection of recipes will also prevent the habit of frequent over purchasing (Kristensen, 2021, para.7.) that we so often succumb to.
+
+To achieve the aim of this project, access must be granted to local businesses’ databases and products as well as their stock and location to ensure that users are receiving the most up to date information on products. The product lists from most stores will be generated using web scraping, however in situations where a local store does not have online capabilities that allow for web scraping, we will need to make an in-person request to access the stores databases.  A feature that we could potentially include down the track would be to offer a service to businesses to get their products online and searchable. This could encourage local businesses with no online presence to embrace digital transformation within their organisation or small business. With the drive towards a digital future, a part of the 2021 Federal Budget is devoted to digital transformation within the Australian economy. According to the Prime Minister of Australia (2021), “Every business in Australia is now a digital business. The tradesman or woman who seeks work through AirTasker. The landscaper who finds most of their new business through search engine placement and social media. The farmer who keeps track of their herd with electronic tags or drones. The local Thai restaurant that sells through UberEats, MenuLog, Deliveroo, or any one of half a dozen different food apps. The gym where members book their classes through an app”. Hence, helping local grocery supermarkets and supply shops acquire their online presence would not only be profitable but cooperative towards a digital future.
+
+When using the application, users will have to allow access to their camera to scan barcodes and items as well as allowing the app to track location. To ensure that a user's privacy is maintained we strive to use security best practice to make sure that users' personal data is being handled properly and that we are following all the proper rules and regulations regarding data privacy. Another potential complication would be that although the application has complete access to information displaying stock levels and databases of a particular store through the use of selenium web scraping, miscommunications due to inconsistent updates can occur. This is due to the over-reliance on the accuracy of stock updates, and these inconsistencies will occur more often with stores that prefer to perform manual stock logging. This issue can be remedied by practising automated stock logging or to use a third-party stock logging service to promote consistency and accurate data.
+
+Expanding on potential issues, the target demographic may not always have access to internet or mobile data bandwidth for a plethora of reasons. This application will also have an offline mode that will be activated when it detects limited or no data bandwidth and will limit features such as the visual API, but location services and barcode scanning will still be available. Our application will also have an offline kit that will allow users to scan barcodes with their devices and enable them to save their purchases to earn coins later, as well as having access to the maps feature with minor limited functionality. We have aimed to make the offline mode as functional as possible for users so that if there are financial and budgetary concerns, they can still use the application even if they may not have access to internet or mobile data at certain times throughout the month.
+
+The Model View Controller (MVC) software design pattern (Detailed information in Back-End tools and technologies) will be utilised in the development of this application. This will essentially separate the software into three parts, one dedicated to the data construction and handling (Model), one dedicated to the business logic, safe data extraction and input concerns (Controller), and one dedicated to the Front-End that will display messages and receive input (View). The preceding factors will result in the development environment being far easier to manage and make task allocation effortless. The complications that may arise when attempting this approach can be locating and hiring native specialised developers that are competent in the field. However, this will be overcome by hiring recruiters as they not only connect (on platforms such as LinkedIn) with various individuals that are more than competent in the field required, but also understand from previous experience, a candidate who would fit the role best.
+
+The software developers hired in this project must ensure the highest quality software possible in order to maximize efficiency and minimize error. Some of the software that will be supplied in the development of this application are JIRA, Tabine (AI extension) and IntelliJ (Organization Version). The costs of these platforms and software are high. However, reflecting their value and usefulness, it will make business sense to purchase them to add value to the development team. As every developer works differently, to ensure the right tools are available, they will be surveyed individually to assist in deciding the most beneficial and cost-effective tools to acquire, avoiding unnecessary and excessive spending in development tools.
+
+
+
+Prime Minister of Australia 2021, A modern digital economy to secure Australia’s future | Prime Minister of Australia, www.pm.gov.au, viewed 11 November 2021, <https://www.pm.gov.au/media/modern-digital-economy-secure-australias-future>.
+
+Shopping Stats – Kristensen E. April 15 2021, 15 eye-opening online shopping statistics for 2021, sleeknote, viewed  October 26 2021.
             </p>
-        
+
           </div>
         </div>
       </div>
-  
+
 
       <footer class="footer">
         <div class="row">
