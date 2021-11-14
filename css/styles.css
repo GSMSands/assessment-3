@@ -4,11 +4,11 @@ html {
 .container {
     max-width: 960px;
   }
-  
+
   /*
    * Custom translucent site header
    */
-  
+
   .site-header {
     background-color: rgba(0, 0, 0, .85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -22,16 +22,16 @@ html {
     color: #fff;
     text-decoration: none;
   }
-  
+
   /*
    * Extra utilities
    */
-  
+
   .border-top { border-top: 1px solid #e5e5e5; }
   .border-bottom { border-bottom: 1px solid #e5e5e5; }
-  
+
   .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
-  
+
   .flex-equal > * {
     -ms-flex: 1;
     -webkit-box-flex: 1;
@@ -66,11 +66,11 @@ html {
         display: none;
     }
 }
-  
+
   .overflow-hidden { overflow: hidden; }
 
   /**Custom Styles Here**/
-  
+
 
   .footer-image {
       height: 150px;
@@ -91,7 +91,7 @@ html {
       height: 400px;
   }
 
-  
+
   /*Style the footer*/
   .footer {
     flex-shrink: 0;
@@ -114,4 +114,44 @@ body {
 
 h1, h2, h3 {
   font-family: 'Bebas Neue', cursive;
+}
+
+/*Column general*/
+.column {
+  background-color: #FFFFFF;
+  flex: 100%;
+  padding: 10px;
+}
+
+/*Column for profile description*/
+.column-left {
+  background-color: #FFFFFF;
+  flex: 70%;
+  padding: 10px;
+}
+
+/*Column for profile photo*/
+.column-right {
+  background-color: #FFFFFF;
+        flex: 30%;
+  padding: 10px;
+  height: 300px;
+}
+
+/*Avatar*/
+.avatar {
+  display: block;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/*Avatar Tiny*/
+.avatar-tiny {
+  border-radius: 50%;
+  width: 80px;
+  float: left;
+  margin: 20px;
+  padding: 10px;
 }
