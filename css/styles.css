@@ -81,6 +81,7 @@ html {
     min-height: 300px;
     border-radius: 21px;
     margin-bottom: 4em;
+   
   }
 
   .content-section p {
@@ -94,6 +95,10 @@ html {
   .content-section img {
     max-width: 100%;
     padding: 2em; 
+  }
+
+  .first-heading {
+    margin-top: 1em;
   }
 
   .wireframe-imgs {
