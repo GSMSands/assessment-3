@@ -254,25 +254,94 @@
                 </ul>
               </div>
             </div>
+
             <div class="row">
               <div class="col-xs-12 col-md-6">
-                <img class="wireframe-imgs" src="../../images/wireframe-1.png">
+                <img class="wireframe-imgs" src="../../images/wireframe-2.png">
               </div>
               <div class="col-xs-12 col-md-6">
                 <ul>
                   <li>
-                    Registers with app
+                      User can register a new account using the register now button from the login in screen.
                     <ul>
-                      <li>The user, on first opening the app, is presented with a registration screen  </li>
-                      <li>The user is presented with a login screen that also has the option to register a new account. There is an email and password input field if you already have an account.</li>
-                      <li>If you do not already have an account, there is an option to register a new account.</li>
-                      <li>The password is stored in JavaScript as a hash, which was generated through a secure hash function, hence ensuring the ability to check the validity of your username and password whilst also making it impossible for a third party looking at the JavaScript to know your credentials. We did this for the application to have working log in functionality, even though we have not connected the front-end with the backend (due to the absence of a server). Currently, the functioning credentials are the email michalis001@outlook.com with the password michalis001</li>
-                      <li>There is a link to click under the login button if you have forgotten your password on the left-hand side, and there is a privacy link to click under the login button on the right-hand side.</li>
+                      <li>To start with users will be directed to fill out input fields in the Create New Account screen.  </li>
+                      <li>This includes input fields of an email address, a password field as well as a confirm password field. This will be checked using a JavaScript function on the front end.</li>
+                      <li>The first password box will also check that users are not using illegal characters. This can be in the form of a pop-up message. This will be done with either html and or JavaScript functions.</li>
+                      <li>The bottom password box will need to match the top for added security. A message will appear if the passwords do not match. If the passwords do match the input field will turn red, and if they do match the input field will turn green.</li>
+                      <li>Users will then need to fill in their First Name and Last Name.</li>
+                     <li>Users will then need to fill in their Address, with a search function build in to assist with the correct address format. This will be done using Ajax calls within a JavaScript function to dynamically populate the field.</li>
+                     <li>Users will then need to fill in their date of birth.</li>
+                     <li>They will then have the option to turn notifications for the app on or off.</li>
+                     <li>They have the option to read Terms and Conditions via a link on the bottom left of the screen.</li>
+                     <li>They can also read a privacy statement regarding how their personal data will be used and stored on the bottom right-hand side of the screen.</li>
+                     <li>Users can then submit by clicking the submit button on the bottom right-hand side of the screen.</li>
+                     <li>Once users have submitted a back-end token will be assigned to that user's email address. Users will then be asked to go to the email address provided to verify the account.</li>
+                     <li>After verification, the app automatically logs users in.</li>
                     </ul>
                   </li>
                 </ul>
               </div>
             </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <img class="wireframe-imgs" src="../../images/wireframe-3.png">
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <ul>
+                    <li>
+                        Landing Page where the User can see the latest deals 
+                      <ul>
+                        <li>The landing page is the first page users see when opening the app.  </li>
+                        <li>They will be able to see a large slider that will be updated with the latest sales and offers.</li>
+                        <li>Below it is a news feed which includes deals from stores in the area. As well as featured offers from stores.</li>
+                        <li>There is a drop-down hamburger menu on the left which allows the user access to the categories within the application.</li>
+                        <li>On the right-hand side users have the option to search for items directly from the landing page.</li>
+                        <li>Next to the search icon, there is the shopping cart icon.</li>
+                        <li>When items are added to the shopping cart a small number will appear using JavaScript and jQuery.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            <div class="row">
+                  <div class="col-xs-12 col-md-6">
+                    <img class="wireframe-imgs" src="../../images/wireframe-4.png">
+                  </div>
+                  <div class="col-xs-12 col-md-6">
+                    <ul>
+                      <li>
+                          View a Specific Shop Page where the User can see and select specific products 
+                        <ul>
+                          <li>Sixteen icons with the Items displayed per page are displayed with the Item Name above and the amount per quantity below, to update it regularly it will be web scrapped against the shop webpage.  </li>
+                          <li>A search field on the left-hand top corner allows you to search for specific items in a specific shop.</li>
+                          <li>The right side of the screen has a filter icon, to narrow your search of items in the store.</li>
+                          <li>The top of the page has a shop banner specific to each shop.</li>   
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                      <img class="wireframe-imgs" src="../../images/wireframe-5.png">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                      <ul>
+                        <li>
+                            General Shopping Section once you have defined location
+                          <ul>
+                            <li>Once your location is defined from your user registration form you will be directed to the general section which will populate items from the shops near you.</li>
+                            <li>It will populate items from roughly 20km from your location.</li>
+                            <li>Once you click on the item, the item will have a shop banner stating which shop the item is from.</li>
+                            <li>When you then add that item to the cart it adds it to the cart and then brings you back to the page you were on before clicking the item.</li>   
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
 
           </div>
         </div>
