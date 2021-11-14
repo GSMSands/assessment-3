@@ -126,14 +126,12 @@ h1, h2, h3 {
 /*Column for profile description*/
 .column-left {
   background-color: #FFFFFF;
-  flex: 70%;
   padding: 10px;
 }
 
 /*Column for profile photo*/
 .column-right {
   background-color: #FFFFFF;
-        flex: 30%;
   padding: 10px;
   height: 300px;
 }
