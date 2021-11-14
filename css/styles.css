@@ -87,6 +87,25 @@ html {
     padding: 2em;
   }
 
+  .content-section p, .content-section ul {
+    text-align: left;
+  }
+
+  .content-section img {
+    max-width: 100%;
+    padding: 2em; 
+  }
+
+  .wireframe-imgs {
+    height: 500px;
+    margin-top: -2em;
+  }
+
+  .uat-table img {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .home-logo {
       height: 400px;
   }

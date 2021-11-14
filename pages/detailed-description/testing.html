@@ -88,9 +88,64 @@
           </div>
           <!--Content-->
           <div class="bg-white box-shadow mx-auto content-section">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        
+            <div class="row">
+              <div class="col-12">
+                <p>Software testing is a process which IT professionals check “whether the actual software product matches the expected requirements” (Hamilton 2021 para.1.). We can use software testing to check for any mistakes, bugs, or gaps in the code or to see if there are any missing requirements (Hamilton 2021). Ideally, to test an application, we would use three kinds of testing methods, user acceptance testing, end-to-end testing, and unit testing. </p>
+                <strong>End-to-End testing</strong>
+                <p>End-to-end testing would enable us to have automated testing that can be run when we perform our commits and pushes to GitHub. This can easily identify bugs and regressions that have been introduced with new changes. It could be run as part of our CI/CD pipeline. The types of users who would do end-to-end testing would be quality assurance developers and other developers working in the project. End to End testing is generally done on “finished products and systems” (Katalon n.d.).
+                <br />
+                <br />
+                End-to-End testing is important when looking at the back-end, where it tests the applications functionalities and capabilities as well as for a consistent user experience for example, with End-to-End testing we can test “cross browser compatibility” (Bose 2021).
+                <br />
+                <br /> 
+                The process of doing End-to-End testing is as follows:
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <img src="../../images/e2e-testing-workflow.png">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <strong>Unit Testing</strong>
+                <p>
+                  Unit Testing, also known as component testing (Software Testing Fundamentals n.d.), enables us to test little units of code. A unit testing framework isolates various methods functions and classes to perform isolated single tests on the known inputs and expected outputs. Unit testing frameworks include examples such as Jest which is a unit testing framework that can be used when developing with projects that are using Babel, Typescript, Node, React, Angular or Vue (Jest n.d.). Other frameworks include NUnit for C# development, JUnit for Java development, or HTMLUnit for JavaScript development (ReQTest 2018). This can also run during the CI/CD pipeline and can potentially identify more low-level bugs on the software. The types of users who would do unit testing are developers working on the project
+                <br />
+                <br />
+                Unit testing has a multitude of advantages, such as reducing the cost of testing, and reducing the amount of bugs and error in new features, or when updating code. Unit testing also helps to improve design of code and can help to substantially improve the quality of the code structure (Unit Testing- Tutorialspoint 2020)
+                <br />
+                <br />
+                The diagram below is an example of the workflow of Unit Testing which highlights the processes of steps that need to be taken when planning out this type of testing.
+                </p>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <img src="../../images/unit-testing-workflow.jpg">
+                <br />
+                <em>Figure 1, Workflow of Unit Testing, GeeksforGeeks, n.d</em>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <strong>UAT Testing</strong>
+                <p>User acceptance testing is important as it will allow us to check that the project idea meets the specified requirements, we have set out to achieve. It will help us to identify any problems missed or overlooked. User acceptance testing (UAT) will give us a coherent idea of what features may need to be added or completed and present a picture of how much more is needed to complete the entire application. In the professional world, specific users who would be testing the product would be end-users, we would need approximately ten to twelve end users and it’s not necessary for them to have a background in IT, because we want to be able to test the product with non-technical users.
+                <br />
+                <br />
+                The template in the following pages is an example of the UAT testing we would do for our specific application once all the features are fully developed and functional. We would have a description of what the User should do and expected results for the user to check how the application should function. We would also have an actual result section for the users to enter either a ‘pass’ or ‘fail’, this could also be represented with a tick or a cross, and we would have a notes section for detailed notes if the actual result should return as a ‘fail’. 
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 uat-table">
+                <img src="../../images/uat-example-1.png">
+                <img src="../../images/uat-example-2.png">
+                <img src="../../images/uat-example-3.png">
+              </div>
+            </div>
           </div>
         </div>
       </div>
