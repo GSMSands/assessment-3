@@ -229,6 +229,115 @@
 						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
 					/>
 					<p style="text-align: center">(Result of the auto HTML generator for Woolworths)</p>
+					<p>The auto HTML generators for the products of each store are very similar to that of the pages.</p>
+					<h3>Directions</h3>
+					<p>
+						In order to ensure that the user completes his shopping in the smallest amount of time possible, the
+						application also has the integrated functionality, of providing him with instructions, so as to complete
+						his errands in an expediated fashion. To this purpose, a python program was written, so as to make HTTP
+						requests to the google API, which would in turn, respond with a JSON containing all the relevant
+						information.
+					</p>
+					<img
+						src="../../images/artefacts/15.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p style="text-align: center">(The entire dir.py program)</p>
+					<h3>Backend</h3>
+					<p>
+						Once all the programs above were completed, we continued to develop backend.py, a program which
+						encompasses most of the functionalities the application should have. By having such a program, we have a
+						functioning back end that we can potentially connect with the front end and we also allow the user, if he
+						wants to, to operate the application from the command line. The backend leverages the dir.py program as
+						well as datetime, which I use so as to archive the user’s purchases.
+					</p>
+					<img
+						src="../../images/artefacts/16.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p style="text-align: center">(This is the beginning of the backend program)</p>
+					<p>
+						Once it is run, it will ask the user to select an option, and he has to respond with p, s, h or e, so as
+						to purchase products, search for an item, view purchase history or exit the application respectively.
+					</p>
+					<img
+						src="../../images/artefacts/17.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p>If the user selects to purchase products, then, the program will ask him to input the products name.</p>
+					<img
+						src="../../images/artefacts/18.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p>
+						The user has to then input its name, to which the program will respond with all products that have that
+						name included in them.
+					</p>
+					<img
+						src="../../images/artefacts/19.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p>
+						The user now has to select which number product it is that he wants to purchase, and then the program will
+						ask him if he wants to purchase more products. If he does, he has to respond with y, in which case the
+						process will be repeated and otherwise he has to respond with n, in which case it will continue with the
+						directions.
+					</p>
+					<img
+						src="../../images/artefacts/20.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p>If he responds with neither y nor n, then it will ask him to input either y or n.</p>
+					<img
+						src="../../images/artefacts/21.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p>
+						The program will hence ask the user, after he has provided a valid input, for his latitude and longitude.
+						Once he has provided these values, it will provide him with the relevant directions, so as to make his
+						purchases, in the most expediated manner possible. These directions will be provided with HTML formatting,
+						so that they can easily be embedded in a website.
+					</p>
+					<img
+						src="../../images/artefacts/22.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p>If he gives an invalid response to the question, then it will ask him to please input a decimal number.</p>
+					<img
+						src="../../images/artefacts/23.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p>
+						After this, it will provide him with the menu of options again. If the user selects to search for an item,
+						the program will ask him to input the item’s full name.
+					</p>
+					<img
+						src="../../images/artefacts/24.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p>Once the user has responded with an input, the program will output the options which match the search.</p>
+					<img
+						src="../../images/artefacts/25.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p>
+						And then ask if the user wishes to search for more products. If he does and hence answer with y, then it
+						will repeat the process. Otherwise, if he doesn’t and hence responds with n, it will provide the user with
+						the options menu.
+					</p>
+					<img
+						src="../../images/artefacts/26.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p>If the user’s response is neither y nor n, then it will ask the user to input either y or n.</p>
+					<img
+						src="../../images/artefacts/27.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p>
+						If the user now wishes to view his purchase history, then the program will provide him with it, complete
+						with both the exact time and date, on which he made each purchase.
+					</p>
 				</div>
 			</div>
 		</div>
