@@ -1,119 +1,236 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Assessment 3 - Aims</title>
-  <meta name="description" content="Aims">
-  <meta name="author" content="Gesina Sands">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <!--
+		<title>Assessment 3 - Aims</title>
+		<meta name="description" content="Aims" />
+		<meta name="author" content="Gesina Sands" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+		<!--
       TODO: Add favicons
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   -->
 
-  <link rel="stylesheet" href="../../css/styles.css">
+		<link rel="stylesheet" href="../../css/styles.css" />
+	</head>
 
-</head>
+	<body class="bg-light">
+		<header>
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+				<a class="navbar-brand" href="../../index.html">Hex Clan</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarCollapse"
+					aria-controls="navbarCollapse"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Team Profile</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="../team-profile/personal-information.html">Personal Information</a>
+								<a class="dropdown-item" href="../team-profile/group-processes.html">Group Processes</a>
+								<a class="dropdown-item" href="../team-profile/career-plans.html">Career Plans</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../tools.html">Tools</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../project-description.html">Project Description</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../overview.html">Overview</a>
+						</li>
+						<li class="nav-item dropdown active">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Detailed Description</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="./aims.html">Aims</a>
+								<a class="dropdown-item" href="./plans-and-progress.html">Plans and Progress</a>
+								<a class="dropdown-item" href="./roles.html">Roles</a>
+								<a class="dropdown-item" href="./scopes-and-limits.html">Scope and Limits</a>
+								<a class="dropdown-item" href="./tools-and-technologies.html">Tools and Technologies</a>
+								<a class="dropdown-item" href="./testing.html">Testing</a>
+								<a class="dropdown-item" href="./timeframe.html">Timeframe</a>
+								<a class="dropdown-item" href="./risks.html">Risks</a>
+								<a class="dropdown-item" href="./group-processes-and-communication.html"
+									>Group Processes and Communications</a
+								>
+								<a class="dropdown-item" href="./prototype.html">Prototype</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Skills and Jobs</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="../skills-and-jobs/introduction-skills.html">Introduction</a>
+								<a class="dropdown-item" href="../skills-and-jobs/frontend-developer.html">Frontend Developer</a>
+								<a class="dropdown-item" href="../skills-and-jobs/backend-developer.html">Backend Developer</a>
+								<a class="dropdown-item" href="../skills-and-jobs/devops.html">Devops</a>
+								<a class="dropdown-item" href="../skills-and-jobs/technical-lead-pm.html"
+									>Technical Lead/Project Manager</a
+								>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../group-reflection.html">Group Reflection</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
 
-<body class="bg-light">
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <a class="navbar-brand" href="../../index.html">Hex Clan</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Team Profile</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="../team-profile/personal-information.html">Personal Information</a>
-                    <a class="dropdown-item" href="../team-profile/group-processes.html">Group Processes</a>
-                    <a class="dropdown-item" href="../team-profile/career-plans.html">Career Plans</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../tools.html">Tools</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../project-description.html">Project Description</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../overview.html">Overview</a>
-              </li>
-              <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Detailed Description</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="./aims.html">Aims</a>
-                    <a class="dropdown-item" href="./plans-and-progress.html">Plans and Progress</a>
-                    <a class="dropdown-item" href="./roles.html">Roles</a>
-                    <a class="dropdown-item" href="./scopes-and-limits.html">Scope and Limits</a>
-                    <a class="dropdown-item" href="./tools-and-technologies.html">Tools and Technologies</a>
-                    <a class="dropdown-item" href="./testing.html">Testing</a>
-                    <a class="dropdown-item" href="./timeframe.html">Timeframe</a>
-                    <a class="dropdown-item" href="./risks.html">Risks</a>
-                    <a class="dropdown-item" href="./group-processes-and-communication.html">Group Processes and Communications</a>
-                    <a class="dropdown-item" href="./prototype.html">Prototype</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Skills and Jobs</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="../skills-and-jobs/introduction-skills.html">Introduction</a>
-                    <a class="dropdown-item" href="../skills-and-jobs/frontend-developer.html">Frontend Developer</a>
-                    <a class="dropdown-item" href="../skills-and-jobs/backend-developer.html">Backend Developer</a>
-                    <a class="dropdown-item" href="../skills-and-jobs/devops.html">Devops</a>
-                    <a class="dropdown-item" href="../skills-and-jobs/technical-lead-pm.html">Technical Lead/Project Manager</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../group-reflection.html">Group Reflection</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+		<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 content">
+			<div class="bg-light w-100 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+				<div class="my-3 p-3">
+					<h2 class="display-5">Prototype</h2>
+				</div>
+				<!--Content-->
+				<div class="bg-white box-shadow mx-auto content-section">
+					<h1>Prototype</h1>
+					<center>
+						<iframe
+							style="border: 10px solid #000000; border-top: 50px solid #000000; border-radius: 20px"
+							src="https://michailchristofis.github.io/A3-Project/index.html"
+							height="750em"
+							width="450em"
+							title="Iframe Example"
+							border="3px"
+						></iframe>
+					</center>
+					<br />
+					<h2>High Fidelity Wireframes and Style Guide</h2>
+					<img src="../../images/Budget Hub.jpg" />
+					<h2>Detailed Work on the Back-End</h2>
+					<p>
+						In the backend a plethora of different tools and services are leveraged in order to produce the results
+						which we require. These tools are as far ranging, as python, till even the Google Maps API, and they all
+						play an integral part, in making the application functional and allowing it to operate as it should.
+					</p>
+					<h3>Selenium</h3>
+					<p>
+						In order to implement the web scraping functionality of the application, a code was created, which scrapes
+						the websites of the stores, with which the application cooperates, and from these websites, retrieve both
+						the price and title of all their products, which are in stock. In order to implement the web scraper, we
+						used Selenium, as well as the time module in python, so as to give the website enough time to send us the
+						data, before proceeding with the next request.
+					</p>
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/GiGR8FVsSXk"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+					<img
+						src="../../images/artefacts/1.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p style="text-align: center">(Beginning of the IGA web scraper)</p>
+					<img
+						src="../../images/artefacts/2.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p style="text-align: center">(Beginning of the Foodland web scraper)</p>
+					<img
+						src="../../images/artefacts/3.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p style="text-align: center">(Beginning of the Woolworths web scraper)</p>
+					<p>
+						Once they are run, over the period of a few hours, they will collect all the relevant data, from the
+						websites of these stores. This information will then be stored in files iga.txt, foodland.txt and
+						woolworths.txt respectively, in a manner, as shown below:
+					</p>
+					<img
+						src="../../images/artefacts/4.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p style="text-align: center">(IGA web scraper results)</p>
+					<img
+						src="../../images/artefacts/5.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p style="text-align: center">(Foodland web scraper results)</p>
+					<img
+						src="../../images/artefacts/6.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p style="text-align: center">(Woolworths web scraper results)</p>
+					<h3>Auto HTML Generators</h3>
+					<p>
+						The information retrieved through use of the web scrapers, is then utilized by the auto HTML generators,
+						which automatically generate the HTML, for the website.
+					</p>
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/yQvXhSuYbZM"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+					<img
+						src="../../images/artefacts/7.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p style="text-align: center">(Beginning of the code for the auto HTML genenator for Foodland)</p>
+					<img
+						src="../../images/artefacts/8.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p style="text-align: center">(Result of the auto HTML generator for Foodland)</p>
+					<img
+						src="../../images/artefacts/9.png"
+						style="display: block; margin-left: auto; margin-right: auto; width: 50%"
+					/>
+					<p style="text-align: center">(Woolworths web scraper results)</p>
+				</div>
+			</div>
+		</div>
 
+		<footer class="footer">
+			<div class="row">
+				<div class="col-12 col-md text-center">
+					<img class="footer-image" src="../../images/team-logo.png" />
+				</div>
+			</div>
+		</footer>
 
-      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 content">
-        <div class="bg-light w-100 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 p-3">
-            <h2 class="display-5">Prototype</h2>
-          </div>
-          <!--Content-->
-          <div class="bg-white box-shadow mx-auto content-section">
-            <h1>Prototype</h1>
-            <center><iframe style="border: 10px solid #000000; border-top: 50px solid #000000; border-radius: 20px;"
-                            src="https://michailchristofis.github.io/A3-Project/index.html" height=750em width=450em
-                            title="Iframe Example" border=3px></iframe></center><br>
-            <h2>High Fidelity Wireframes and Style Guide</h2>
-            <img src="../../images/Budget Hub.jpg">
-
-
-
-
-          </div>
-        </div>
-      </div>
-
-
-      <footer class="footer">
-        <div class="row">
-            <div class="col-12 col-md text-center">
-                <img class="footer-image" src="../../images/team-logo.png" />
-              </div>
-        </div>
-      </footer>
-
-    <!--Required Scripts-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+		<!--Required Scripts-->
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
