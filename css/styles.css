@@ -84,7 +84,7 @@ html {
 
   }
 
-  .content-section p {
+  .content-section p, ul {
     padding: 1em;
   }
 
@@ -106,9 +106,17 @@ html {
     margin-top: -2em;
   }
 
+  .uat-table {
+    display: flex;
+    flex-direction: column;
+  }
+
   .uat-table img {
     padding-top: 0;
     padding-bottom: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .home-logo {
@@ -178,6 +186,6 @@ h1, h2, h3, h4, h5 {
   padding: 10px;
 }
 
-.indented-list li {
+.content-section li {
   margin-left: 3em;
 }
