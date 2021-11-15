@@ -436,11 +436,211 @@
               in no way suffice to create a native one. As the main platforms required to
               create said application are SwiftUI and JavaFX, which in both, the team holds
               limited knowledge.</p>
+            <h1>Back-end and Design</h1>
+            <p>The ultimate goal of technology is to give individuals the opportunity to fulfil tasks that may have at one point required great amounts of effort, effortlessly. The functionality of an application is crucial to the success of the company, despite the UI/UX design as, “without solid backend support, a great-looking frontend can easily fail. No matter how enticing a webpage looks at first glance, visitors will eventually turn away if the functions are compromised” (Nora Kramer Designs, 2021) Nora Kramer enlightens us regarding the impact that a functional backend has on a user and its vitality regarding the frequency of user returns. Various programming languages and platforms must be used in order to ensure the success of Budget Hub and complete functionality  resulting in widespread usage of this application.
+            </p>
+            <h2>Programming Languages</h2>
+            <h3>Python 3.9.5 And Selenium Web scraping - <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+            <p>
+              The tool used in order to retrieve information regarding the stores, their prices, items and images was a Python script along with a selenium module.
+            </p>
+              <ul>
+                <li>Python 3.9.5 And Selenium Web scraping</li>
+                <p>
+                  Selenium is an open-source module, its main intention is to test backend software, although this is its main function, it may also be used in order to scrape web pages. In this project we used the Selenium open-source module in order to implement the retrieval of images and information on the products listed from various web pages. As python does not require compilation, it is deemed a quick language that takes little memory to run, it is for this reason that this language was chosen to be used, as processing large amounts of data can be a rather strenuous and time-consuming task with alternate languages.
+                </p>
+                <li>Alternate Possibilities </li>
+                <p>
+                  Alternate software, and possibilities may have been, either direct access to the target stores databases, or manual logging.
+                </p>
+                <li>Manual Logging</li>
+                <p>
+                This alternative would simply consist of a third-party software being granted to the store, making stock logging easier. The stores would then manually enter the items and stock along with the prices and updated sales. This approach is not feasible due to the time taken when manually logging stock, and the inconsistencies that may take place due to various complications and challenges that the store may encounter.
+                </p>
+                <li>Accessing databases</li>
+                <p>
+                  Another alternative would have been to request access to the databases of the store. This may have been feasible if the layout of acquired data was usable, contrastingly it would be redundant as the data on the web pages reflect the database stock log, prices, and images. Furthermore, security concerns may be raised when requesting access to store databases.
+                </p>
+              </ul>
+              <h3> Java DK 17  <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+              <p>
+                Java is a backend language used to create and maintain android native applications, its datatypes are all strictly enforced and mentioned at declaration/initialization. The data type in the image shown below has been set to an integer, therefore, the type will not vary during runtime, the line proceeding is not mandatory as values may vary during runtime hence the name (variable).
+              </p>
+              <center><img src="../../images/tools_tech/javadk.png"></center>
+              <p>
+                Therefore “You end up writing less code, but your code is more elegant and precise.” Java utilizes the object-oriented paradigm as a foundation upon which it stands. Therefore, the program may be maintained and built by various programmers at once whilst simultaneously maintaing  cohesion as various classes and packages would be administered to different teams. Java is also fond of inheritance and polymorphism that go hand in hand and are mutually exclusive, this means that sub/child-classes may inherit methods and variables that are declared in the parent class, further adding to the elegance and precision that this program will hold. The MVC (Model View Controller) software design pattern will be used as it separates packages and classes into appropriate usages, thus ensuring effortless maintenance, collaboration, High cohesion, and loose coupling.
+              </p>
+              <ul>
+                <h5>MVC Software Design Pattern</h5>
+                <p>
+                  <ol type "I">
+                    <li><b>UI(View)</b> is the package that simply displays information to the user in a formatted layout whilst simultaneously retrieving user input and passing it into the controller. The view will withhold minimum business logic and restrictive operators, as these must be held in the controller, although this is the case, it is crucial to have input restrictions within the View that contain logic to restrict absurd user input. </li>
+                    <br/>
+                    <li><b>The Controller</b> is the application runner, it acts as a middleman that contains the functions and methods that return values from the model granted that said inputs and outputs follow precise business logic and security measures. The business logic kept in the controller ensures that the model is kept precise and clean, thus avoiding confusion and mishaps within the backend. </li>
+                    <br/>
+                    <li><b>The Model</b> is simply the backend where all the custom datatypes and data structures(classes), are created and managed. All the data is stored here, and the model will contain little to no business logic and will remain as small as possible. </li>
+                    <br/>
+                  </ol>
+
+                  <h5>Intended Uses</h5>
+                  <p>
+                    The object-oriented paradigm will be used to its fullest potential as classes and methods will be made effectively whilst also fulfilling pivotal roles in the make of the language. A simple example of a class that may be created is a recipe class that would hold the member variables, overall price, image and a list of strings that would be the ingredients and links that the recipe contains.
+                  </p>
+                  <h5>Alternatives </h5>
+                  <ol type "I">
+                    <li>Kotlin 1.5.0</li>
+                    <p>
+                      The object-oriented paradigm will be used to its fullest potential as classes and methods will be made effectively whilst also fulfilling pivotal roles in the make of the language. A simple example of a class that may be created is a recipe class that would hold the member variables, overall price, image and a list of strings that would be the ingredients and links that the recipe contains.
+                    </p>
+
+                  <li>Software Design Patterns (MVVM and MVP)</li>
+                  <p>
+                  Alternate software design patterns may include MVVM (ModelViewViewModel) and MVP(ModelViewPresenter).
+                  </p>
+              </ul>
+              <h3> Swift 5.5 <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+
+              <p>
+                As the Budget Hub application shall follow a native approach, two languages will be used to establish and ensure compatibility with the two main operating systems. Swift is the main language supported by Apples Operating System. It replaced a language named Objective – C and is known to be safe, quick, and easy to develop with.
+              </p>
+              <h5>Inferred Datatypes and syntax benefits </h5>
+                <p>
+                  This language infers datatypes meaning that unlike many alternate languages where you must mention e.g., String example = “example”, a developer may simply declare a variable with the keyword “var”, this opens various possibilities as a condition may result in said declared variable, being initialized to a Boolean (“True/False”) or an integer (12), another popular language that utilizes this concept successfully is python. Swift also does not require semi – colons thus making the development process easier.
+                  <br/>
+                  <br/>
+                  Note: The following are three examples of inferred types as the type is not statically typed.
+                </p>
+                <center><img src="../../images/tools_tech/inferred_datatypes.png"></center>
+                <p>
+                  Whereas the following code line represents an optional option in the syntax that allows the programmer to statically type the data type that the variable will be initialized to. The information that proceeds the colon will specify the data type the language is expecting.
+                </p>
+                <center><img src="../../images/tools_tech/inferred_datatypes2.png"></center>
+                <h5>Safety</h5>
+                  <p>
+                    Swift is a safe language as “Variables are always initialized before use, arrays and integers are checked for overflow, memory is automatically managed, and enforcement of exclusive access to memory guards against many programming mistakes”. Furthermore, variables are restricted when it comes to setting them to "nil”, meaning that  Swift is not as prone to an exception that would encompass attempting to tamper with, or use a nil value. When a variable is set to nil, this is classified as a “compilation error” in opposed to a “run-time error”. Meaning that the compiler will automatically crash, in the instance of a variable being set to nil, and most IDE’s will warn the developer of this error pre-compilation.
+                  </p>
+                  <h5>Speed </h5>
+                  <p>
+                  With regards to speed, swift is incredibly efficient thanks to the innovative “LLVM compiler technology” and a fine tuning of the language so that the syntax is as easy to understand as possible whilst also being close to computer language. A mix of built-in functions, methods, and classes, commonly referred to as library's, have been introduced as binary compatible with swift 5. This means that the requirement of including the library's used in the creation of the application is no longer existent as the latest version of the OS library will always be automatically updated and in use by the application.
+                  </p>
+                  <h5> Hardware Requirement Con  </h5>
+                  <p>
+                  Contrastingly, swift requires an IOS environment that remote developers may not have, with this restriction, there may be multiple complications that follow. To avoid all complications, all IOS developers must be granted a MacBook that they may use as their developing environment thus solving said obstacle.
+                  </p>
+                  <h5> Swift Foundational Paradigm  </h5>
+                  <p>
+                  Contrastingly, swift requires an IOS environment that remote developers may not have, with this restriction, there may be multiple complications that follow. To avoid all complications, all IOS developers must be granted a MacBook that they may use as their developing environment thus solving said obstacle.
+                  </p>
+                  <h5> Intended uses </h5>
+                  <p>
+                  Swift will be used very similarly to Java, an example of how this language may be used is, a class may be named product and this class may hold object member variables including a price, the location, the type and name of the product. This class may then essentially be used as a blueprint to construct various objects that would then be managed and displayed in the fronted. This would be the intended use of this language and the Object-Oriented paradigm more specifically. The MVC model would also be used to ensure a clean backend, a purposeful frontend and a strict and functioning controller.
+                  </p>
+                  <h5> Alternatives </h5>
+                  <p>
+                  Before Swift, Objective C was used for a majority of IOS applications. Contrastingly, Objective C is outdated, and no longer receives support from IOS, preceding the introduction of Swift.
+                  </p>
+                  <h3> MySQL <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+                  <p>
+                  MySQL is a relational database Management system, or “RDBMS” for short. It was named after its founder's daughter and  simply put it is, ‘an open-source database management system that enables users to maintain and manage their own web database systems.’ It is free of charge and may be customized according to the requirements of each individual user, or company. It is written in C and C++, and “can work on different platforms like Microsoft Windows, Oracle Solaris, AIX, Symbian, Linux, MAC OS” (What Is MySQL And Why It Is Used?, 2021) The first question that may be raised when handing over, not only mass amounts, but extremely sensitive data, is “Is this a secure and private platform that this organization can trust?”
+                  </p>
+                  <br/>
+                  <br/>
+                  <p>
+                  The answer to this question is an absolute yes, as the largest and most advanced web applications such as Instagram and Facebook are currently entrusting this SQL platform with their data. The main security measure that MySQL implements is an encryption of data with a particular key that they (MySQL) do not have access to. This ensures the integrity of  data management as intruders are not able to decipher said data and information, granted that they manage to enter the databases.
+                  </p>
+                  <br/>
+                  <br/>
+                  <p>
+                  Furthermore, as previously mentioned, due to the fact that MySQL does not hold the key required to unencrypt the data stored on their platform, it is ensured to the user and organization that their data is protected from all threats. On top of said security features that have been implemented that essentially make it impossible to unencrypt data, authentication measures are also executed. It would be optimal to use MySQL for a web application, but despite this fact, it is still usable for an android application that would then use PHP in order to access the data stored in the database. The data that will be stored in said databases may be sign in details/credentials, previous purchases, store preferences, application credits etc. Thus, making this database vital for the success of the application.
+                  </p>
+                  <h3> GitHub <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+                  <p>
+                    The GitHub framework has revolutionized the way that programmers collaborate, it has now become standardized. This collaborative platform will be used in the further development of Budget Hub, as it, not only makes collaboration easier and efficient but also far safer. This is due to the version control that GitHub provides, said version control allows the user to access different instances of the repository in case of failure or unwanted code. It is also   required that all programmers know how to use the command line in order to push and commit to a repository. This is due to the limitations that GitHub Desktop places on its users.
+                  </p>
+                  <h3> JIRA <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+                  <p>
+                    The JIRA platform is a collaborative software tool, allowing programming teams to pass their program through different phases/stories according to the sequence they choose to follow. In the beginning there will be a meeting between the programmers using the Fibonacci sequence in order to determine the level of difficulty to build the software required. After the meeting, the program will begin with JIRA allowing the team to either create their own project sequence or use the one they supply. Task allocation will all be managed by JIRA whilst simultaneously displaying the progress and priorities of said tasks such use of Kanban board in order to display and visually represent each team member's performance, and possibly re-allocate tasks depending on each person's workload. JIRA cultivates the same type of benefits.
+                    <br/>
+                    <br/>
+                    The format that this software uses in order to ensure that each task is completed to the organization's satisfaction is as shown below.
+                  </p>
+                  <center><img src="../../images/tools_tech/jira.png"></center>
+                  <p>In the diagram/roadmap above, there are 5 phases, the first simply means that the task is now ready to be completed but has not necessarily begun yet. If it stays in this stage for too long, the priority of this task will be increased. Proceeding the beginning of the task, the developer/employee will mark the task as in progress, this is a broad section, and one that may not be deciphered unless further communication is conducted. As a programmer, this section may be halfway finished, or 99% complete. Due to this high chance of miscommunication, it must be stated that this tool will not replace team communication but enhance and encourage it.
+                    <br/>
+                    <br/>
+
+                     When the task is under review, the task has been somewhat completed, and is now ready to be tested and reviewed. This section is to be done by another team member with the skills required. If the reviewer notices flaws and inconsistencies in the work supplied, the task may move back into an in-progress story. On the other hand, if the task is deemed worthy of being finalized, and is up to the expectations of the reviewer, it will be sent to the final approval section. This phase is of utmost importance, as this program is highly likely worth a great amount of money, and if it is not completely assessed and confirmed before pushing it to production, massive complications may arise. Therefore, JIRA has used a simple two tick system, that is not satisfied with only one publisher's opinion on the task, but two. Once they are both satisfied, the task is pushed to the main branch that will then be a part of the application.
+                  </p>
+                  <center><img src="../../images/tools_tech/jiracost.png"></center>
+                  <p>
+                    As shown in the image above, the website encouraged the use of a standard subscription, due to the hypothetically small number of members in the app development team. The price is $7.50 per person which would equate to about $1800 per year
+                  </p>
+                  <h3> IntelliJ - <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+                  <p>
+
+
+                  IntelliJ IDE (Integrated Development Environment) was developed by JetBrains, the creators of Kotlin. Said IDE has a reputation amongst backend Java and Kotlin developers. It is known for its intelligence in the “Smart completion, Chain completion, Static members completion, Data flow analysis, Language injection, Cross-language refactoring's, Detecting duplicates, Inspections and quick-fixes” (Best Java IDE 2021 | Most Popular Java IDE for Coding, 2021) domains.
+                    <br/>
+                    <br/>
+                   It has three modes, compensating for all types of programming preferences, including a high contrast mode, a dark theme mode and the widespread despised light mode. It has different appearances also, that Its debugging tools use smart annotations, revealing where an error may occur, and the Boolean results in a specific statement, it also provides a list of variables and their contents. In the end of the day, Java is Java, and the quality of the code will not vary much depending on the IDE, with that being said the Java developers will be granted not only the community edition of the IDEA but “a proprietary commercial edition.” (Best Java IDE 2021 | Most Popular Java IDE for Coding, 2021). The paid “Ultimate” version of this IDE is approximately $500 a year per user.
+                  </p>
+                  <h3> XCode  - <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+
+                  <p>
+                    XCode is a platform most commonly used for IOS Swift application development, XCode is the foundation upon which many IOS developing teams stand upon, utilizing its fullest potential as a platform that not only provides nice appearance and minute features, but also effectively integrates SwiftUI, in order to remove the requirement from the developers, to run the code on another platform, or a device, as XCode compiles and reveals the UI in the latest format. The developer may choose to view their application on different IOS devices, and closely analyze said application behavior accordingly.
+                  </p>
+                  <center><img src="../../images/tools_tech/backendcompetencies.png"></center>
+                  <p>
+                    According to the table above, the members of the Hex Clan team are moderately incompetent with regards to backend tools and technologies, the software listed are essential to the furthering of the application on a mobile app level. This outcome was hypothesized as the tools listed require high skill level to comprehend and utilize. Furthermore, said platforms are specific to those that have specialized, not only in the field of computer science, but in the specific platform. As the members in the team are all still at a tertiary level education, and in first year, there is not one single expert, and little competency in said areas.
+                  </p>
+                  <h2>Hardware and Peripherals</h2>
+                  <p>With the software requirements in mind, the following hardware and peripherals recommended are as follows:  </p>
+                  <h3>Laptop or Desktop Computer</h3>
+                  <ul>
+                    <li>Specifications : </li>
+                    <ol type  ="I">
+                      <li>CPU: Intel i7</li>
+                      <li>GPU: Not necessarily required, may use CPU graphics, but not recommended </li>
+                      <li>RAM: DDR4 16 GBs or more.</li>
+                      <li>Storage: Minimum of 500 GB of SSD storage.  </li>
+                      <li>Screen size: Minimum of one screen 15” Two screens, one landscape and the other portrait recommended. </li>
+                    </ol>
+                    <li>•	Suggested Systems and Costs:</li>
+                    <ol type  ="I">
+                      <li>XPS 15 Laptop intel 17 11th gen - $2,899.01(Dell, n.d.) </li>
+                      <li>IdeaPad L3i 15" – 11th Gen Intel - $1,289.00(Lenovo, n.d.) </li>
+                    </ol>
+                  </ul>
+
+                  <h3>Peripherals</h3>
+                    <ol type="I">
+                      <li>Computer Mouse</li>
+                      <li>Computer Keyboard</li>
+                      <li>Computer Monitor</li>
+                    </ol>
+                    <p>
+                      Nora Kramer Designs, T., 2021. The Critical Importance of Frontend and Backend Website Maintenance. [online] Nora Kramer Designs. Available at: <https://norakramerdesigns.com/the-critical-importance-of-frontend-and-backend-website-maintenance/> [Accessed 5 November 2021].
+                      <br/>
+                      <br/>
+                      Top Java Tutorial. 2021. Swift Data Types - Top Java Tutorial. [online] Available at: <https://www.topjavatutorial.com/mobile/swift/swift-data-types/> [Accessed 8 November 2021].
+                      <br/>
+                      <br/>
+                      Developer.apple.com. 2021. Swift - Apple Developer. [online] Available at: <https://developer.apple.com/swift/#safety> [Accessed 8 November 2021].
+                      <br/>
+                      <br/>
+                      Software Testing Help. 2021. What Is MySQL And Why It Is Used?. [online] Available at: <https://www.softwaretestinghelp.com/what-is-mysql/> [Accessed 13 November 2021].
+                      <br/>
+                      <br/>
+                      Medium. 2021. Data Types in Swift — Where it All Starts. [online] Available at: <https://medium.com/coding-blocks/data-types-in-swift-where-it-all-starts-c1311fa93368> [Accessed 8 November 2021].
+                      <br/>
+                      <br/>
+                      Ansari, R., 2021. Variable Declaration and Initialization in Java Programming Language | atnyla. [online] Atnyla.com. Available at: <https://www.atnyla.com/tutorial/variable-initialization-and-declaration---in-java/0/32> [Accessed 8 November 2021].
+                      <br/>
+                      <br/>
+                    </p>
           </div>
         </div>
       </div>
-
-
       <footer class="footer">
         <div class="row">
             <div class="col-12 col-md text-center">
