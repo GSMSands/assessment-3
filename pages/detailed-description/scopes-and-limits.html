@@ -72,9 +72,20 @@
                     <a class="dropdown-item" href="../skills-and-jobs/technical-lead-pm.html">Technical Lead/Project Manager</a>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../group-reflection.html">Group Reflection</a>
-              </li>
+
+              <li class="nav-item active">
+                  <a class="nav-link" href="./meetings.html">Meetings</a>
+                </li>
+
+
+              <li class="nav-item active">
+                  <a class="nav-link" data-toggle="dropdown" href="#">Reflections</a>
+                  <div class="dropdown-menu">
+                          <a class="dropdown-item" href="./group-reflection.html">Group Reflection</a>
+                          <a class="dropdown-item" href="./personal-reflection.html">Personal Reflections</a>
+                         
+                      </div>
+                </li>
             </ul>
           </div>
         </nav>
@@ -88,44 +99,48 @@
           </div>
           <!--Content-->
           <div class="bg-white box-shadow mx-auto content-section">
-            <p>As a group, one of the major limitations we experienced is lack of experience and knowledge, since, at the beginning  of  this  project,  none  of  the  group  members  had  never  developed  an  app  before.  With  determination  and  hours  of  research,  this  limitation  was  overcome, and  we  were  able  to  make  several  artefacts for both the user interface and back-end applications. As the scope of the app continued to grow, we  had  to  prioritise  and  focus  on  the  main  points  of  the  app.  Nine  main  functions,  which  we  focused  on,  were the comprehensive product list, web scraping, route planning, budgeting, history analysis, automatic html   generation,   user   interface   designing,   web   development   and   meal   planning   aspects   of   it.   Simultaneously, we had to leave out other  features  and  functions such  as  a desktop  application,  QR  code  integration and crypto currency creation.
-            </p>
-            <p>The first iteration of this app was a meal planning and budget control app, where people could find meals, be shown  the  ingredients  of  the  meals  and  the  prices  of  each  ingredient  as  well  as  the total  cost  of  creating  them. Once this data was provided, the user could then record their spending, to keep track of food costs with greater ease and were able to reduce their weekly budget. This was then expanded further to give the user the ability to use the route planning function, in order to make the commute to the shops as efficient as possible. In addition, we also expanded the product list from just food, to a plethora of different items sold by local stores, near the user.
-            </p>
-            <p>Despite our limited time together as a team, we have created a multitude of artefacts/prototypes. Some of these were made within our team’s time frame, and others are projected plans, to be updated throughout the app’s lifetime. Some of the artefacts that have been made include:
-            </p>
-            <ul>
-              <li><b>Web Scrapers for a limited number of stores –</b> These are able to supply our app with the database (product titles and prices) for users of this app. These will also be constantly expanded throughout the life span of this application, to include more areas and stores. Initially we have web scrapers for IGA, Woolworths and Foodland. It has been implemented by leveraging the Selenium framework.
-              </li>
-              <li><b>Web  development/User-Interface –</b>  We  have  created  a  user  interface  which  allows  the  user  to  navigate   the   app/website.   The   information   in   the   app’s   database   is   limited   but   it   is   mostly viable and interactive, with most of the functionalities fully operational. The user will be able to navigate the app, looking up a range of items that certain stores have on sale and hence choose what items they wish to buy.
-              </li>
-              <li><b>Route-Planning –</b> In our application we have also included a route planner, which optimizes the route the user should take, in order to expedite the shopping process. The route planner written in the back-end is fully functioning, allowing the user, once they have chosen which products to buy, to know the optimal route to complete their purchases. The application also displays the optimal route in which to visit the stores. Furthermore, the route planner in the website is also functional, despite the fact that due to the lack of a server, we couldn’t manage to have it work out the optimal route, in which the user should visit the stores. It was implemented, by leveraging Google Maps API.
-              </li>
-              <li><b>Back end –</b> The back-end is fully functional, even though we have not included the barcode scanner functionality, since we do  not know  Java  and  it was  not feasible to  learn  it,  whilst  simultaneously  learning everything else necessary for the assignment within the given time frame.
-              </li>
-              <li><b>Budgeting –</b> Through this application, before you go on your daily or weekly shopping trip, you will be able  to know  which  products  you  plan to  buy and  hence  are  less  likely  to  make  unnecessary  purchases (Caeser 2019)
-              </li>
-              <li><b>History analysis –</b> In the back-end, the history analysis is fully functional, allowing the user to view the exact time and date, on which they completed previous purchases.
-              </li>
-              <li><b>Automatic  HTML  Generator  –</b>  In  order  to  create  the  website,  due  to  its  immense  size,  it  was  imperative  to  create  automatic  HTML  generators.  These  generators  use  the  data  gathered  by  the  web scrapers and create HTML code based on it. The generators were written in python.
-              </li>
-              <li><b>User Interface designing –</b> So as to make sure that the website was created in the most professional and organized manner conceivable, we created a series of graphical portrayals, depicting exactly how the   application   should   look,   something   which   we   adhered   to,   to   the   best   of   our   abilities <a href="https://miro.com/app/board/o9J_lmVV8WM=/">(https://miro.com/app/board/o9J_lmVV8WM=/)</a>
-              </li>
-              <li><b>Meal  planning  –</b>  One  of  the most  important  aspects  of  our  website,  is  the  meal  planning feature. Through  meal  planning  the  user  can base  purchases around food  they wish to  make,  instead  of  basing    the    food they wish to    make    on their purchases.    By    doing    so, users can    drastically    decrease their expenses,  whilst  simultaneously  creating  scrumptious  meals,  and  eating  like  a  king.  This is implemented on the website, with a few dozen recipes.
-              </li>
-            </ul>
-            <p>The team also has considered plans for future iterations of the app and is creating a time frame for further features of the app to be created, after the initial launch. These include:
-            </p>
-            <ul>
-              <li><b>Incentive for people to subscribe –</b> Various apps are utilising a new technology called blockchain to help the user make money in exchange for time. According to Burroughs (2021) Blockchain is a way to transmit funds and/or logging information through a decentralised ledger without any need of a financial  intermediary  or  bank.  There  are  various  apps/programs  that  allow  people  to  mine  crypto  currency or earn tokens that can be exchanged for crypto currency or transferred to your bank as flat currency, and in exchange, the user needs to log in everyday or use the app in some specified way.
-              </li>
-              <li><b>QR code integration –</b> The local stores will be supplied with QR codes to display near their checkouts to allow app users to scan, when visiting these stores. This will allow the user to earn certain amounts in crypto currency, whilst simultaneously benefitting the stores, by allowing them to advertise sales and giveaways through this, and allowing the shops to gather vast amounts of attention from the hoi polloi.
-              </li>
-              <li><b>Much larger database –</b> Due to the time restraints of this project only a few stores will be available with a limited number of recipes. Even though we will only have a few dozen recipes completed due to the time constraints; we plan to have a few hundred recipes on the application in the future.
-              </li>
-              <li>Due to the small database available to us, some features in the back-end had to be left out including product  statistics,  bar  code  scanning  and  quantity  checking. In  particular  the group’s  lack  of  knowledge  in  Java,  hindered  the  creation  of  a  mobile  application,  and  hence  also  of  the  bar  code  scanner.  Due  to  the  limited  time  available,  we could  not learn  the  language  as  well  as  learn  everything else required for the application, within the given timeframe.
-              </li>
-            </ul>
+            <div class="row">
+              <div class="col-12">
+                  <p>As a group, one of the major limitations we experienced is lack of experience and knowledge, since, at the beginning  of  this  project,  none  of  the  group  members  had  never  developed  an  app  before.  With  determination  and  hours  of  research,  this  limitation  was  overcome, and  we  were  able  to  make  several  artefacts for both the user interface and back-end applications. As the scope of the app continued to grow, we  had  to  prioritise  and  focus  on  the  main  points  of  the  app.  Nine  main  functions,  which  we  focused  on,  were the comprehensive product list, web scraping, route planning, budgeting, history analysis, automatic html   generation,   user   interface   designing,   web   development   and   meal   planning   aspects   of   it.   Simultaneously, we had to leave out other  features  and  functions such  as  a desktop  application,  QR  code  integration and crypto currency creation.
+                    </p>
+                    <p>The first iteration of this app was a meal planning and budget control app, where people could find meals, be shown  the  ingredients  of  the  meals  and  the  prices  of  each  ingredient  as  well  as  the total  cost  of  creating  them. Once this data was provided, the user could then record their spending, to keep track of food costs with greater ease and were able to reduce their weekly budget. This was then expanded further to give the user the ability to use the route planning function, in order to make the commute to the shops as efficient as possible. In addition, we also expanded the product list from just food, to a plethora of different items sold by local stores, near the user.
+                    </p>
+                    <p>Despite our limited time together as a team, we have created a multitude of artefacts/prototypes. Some of these were made within our team’s time frame, and others are projected plans, to be updated throughout the app’s lifetime. Some of the artefacts that have been made include:
+                    </p>
+                    <ul>
+                      <li><b>Web Scrapers for a limited number of stores –</b> These are able to supply our app with the database (product titles and prices) for users of this app. These will also be constantly expanded throughout the life span of this application, to include more areas and stores. Initially we have web scrapers for IGA, Woolworths and Foodland. It has been implemented by leveraging the Selenium framework.
+                      </li>
+                      <li><b>Web  development/User-Interface –</b>  We  have  created  a  user  interface  which  allows  the  user  to  navigate   the   app/website.   The   information   in   the   app’s   database   is   limited   but   it   is   mostly viable and interactive, with most of the functionalities fully operational. The user will be able to navigate the app, looking up a range of items that certain stores have on sale and hence choose what items they wish to buy.
+                      </li>
+                      <li><b>Route-Planning –</b> In our application we have also included a route planner, which optimizes the route the user should take, in order to expedite the shopping process. The route planner written in the back-end is fully functioning, allowing the user, once they have chosen which products to buy, to know the optimal route to complete their purchases. The application also displays the optimal route in which to visit the stores. Furthermore, the route planner in the website is also functional, despite the fact that due to the lack of a server, we couldn’t manage to have it work out the optimal route, in which the user should visit the stores. It was implemented, by leveraging Google Maps API.
+                      </li>
+                      <li><b>Back end –</b> The back-end is fully functional, even though we have not included the barcode scanner functionality, since we do  not know  Java  and  it was  not feasible to  learn  it,  whilst  simultaneously  learning everything else necessary for the assignment within the given time frame.
+                      </li>
+                      <li><b>Budgeting –</b> Through this application, before you go on your daily or weekly shopping trip, you will be able  to know  which  products  you  plan to  buy and  hence  are  less  likely  to  make  unnecessary  purchases (Caeser 2019)
+                      </li>
+                      <li><b>History analysis –</b> In the back-end, the history analysis is fully functional, allowing the user to view the exact time and date, on which they completed previous purchases.
+                      </li>
+                      <li><b>Automatic  HTML  Generator  –</b>  In  order  to  create  the  website,  due  to  its  immense  size,  it  was  imperative  to  create  automatic  HTML  generators.  These  generators  use  the  data  gathered  by  the  web scrapers and create HTML code based on it. The generators were written in python.
+                      </li>
+                      <li><b>User Interface designing –</b> So as to make sure that the website was created in the most professional and organized manner conceivable, we created a series of graphical portrayals, depicting exactly how the   application   should   look,   something   which   we   adhered   to,   to   the   best   of   our   abilities <a href="https://miro.com/app/board/o9J_lmVV8WM=/">(https://miro.com/app/board/o9J_lmVV8WM=/)</a>
+                      </li>
+                      <li><b>Meal  planning  –</b>  One  of  the most  important  aspects  of  our  website,  is  the  meal  planning feature. Through  meal  planning  the  user  can base  purchases around food  they wish to  make,  instead  of  basing    the    food they wish to    make    on their purchases.    By    doing    so, users can    drastically    decrease their expenses,  whilst  simultaneously  creating  scrumptious  meals,  and  eating  like  a  king.  This is implemented on the website, with a few dozen recipes.
+                      </li>
+                    </ul>
+                    <p>The team also has considered plans for future iterations of the app and is creating a time frame for further features of the app to be created, after the initial launch. These include:
+                    </p>
+                    <ul>
+                      <li><b>Incentive for people to subscribe –</b> Various apps are utilising a new technology called blockchain to help the user make money in exchange for time. According to Burroughs (2021) Blockchain is a way to transmit funds and/or logging information through a decentralised ledger without any need of a financial  intermediary  or  bank.  There  are  various  apps/programs  that  allow  people  to  mine  crypto  currency or earn tokens that can be exchanged for crypto currency or transferred to your bank as flat currency, and in exchange, the user needs to log in everyday or use the app in some specified way.
+                      </li>
+                      <li><b>QR code integration –</b> The local stores will be supplied with QR codes to display near their checkouts to allow app users to scan, when visiting these stores. This will allow the user to earn certain amounts in crypto currency, whilst simultaneously benefitting the stores, by allowing them to advertise sales and giveaways through this, and allowing the shops to gather vast amounts of attention from the hoi polloi.
+                      </li>
+                      <li><b>Much larger database –</b> Due to the time restraints of this project only a few stores will be available with a limited number of recipes. Even though we will only have a few dozen recipes completed due to the time constraints; we plan to have a few hundred recipes on the application in the future.
+                      </li>
+                      <li>Due to the small database available to us, some features in the back-end had to be left out including product  statistics,  bar  code  scanning  and  quantity  checking. In  particular  the group’s  lack  of  knowledge  in  Java,  hindered  the  creation  of  a  mobile  application,  and  hence  also  of  the  bar  code  scanner.  Due  to  the  limited  time  available,  we could  not learn  the  language  as  well  as  learn  everything else required for the application, within the given timeframe.
+                      </li>
+                    </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>

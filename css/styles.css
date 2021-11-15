@@ -84,7 +84,7 @@ html {
 
   }
 
-  .content-section p {
+  .content-section p, ul {
     padding: 1em;
   }
 
@@ -178,6 +178,6 @@ h1, h2, h3, h4, h5 {
   padding: 10px;
 }
 
-.indented-list li {
+.content-section li {
   margin-left: 3em;
 }
