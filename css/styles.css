@@ -177,3 +177,7 @@ h1, h2, h3 {
   margin: 20px;
   padding: 10px;
 }
+
+.skills-and-jobs-list li {
+  margin-left: 3em;
+}
