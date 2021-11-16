@@ -189,3 +189,27 @@ h1, h2, h3, h4, h5 {
 .content-section li {
   margin-left: 3em;
 }
+
+#iframe-example {
+  width: 100%;
+  max-width: 460px;
+}
+
+.youtube-iframe {
+  width: 100%;
+  max-width: 560px;
+}
+
+.content-section .prototype-images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+@media (max-width: 768px) {
+  .content-section .prototype-images {
+    width: 100%;
+    padding: 1em 0;
+  }
+}
