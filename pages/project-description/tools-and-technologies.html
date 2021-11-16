@@ -41,14 +41,12 @@
               <li class="nav-item">
                 <a class="nav-link" href="../tools.html">Tools</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../project-description.html">Project Description</a>
-              </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="../overview.html">Overview</a>
               </li>
               <li class="nav-item dropdown active">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Detailed Description</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Project Description</a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="./aims.html">Aims</a>
                     <a class="dropdown-item" href="./plans-and-progress.html">Plans and Progress</a>
@@ -72,8 +70,18 @@
                     <a class="dropdown-item" href="../skills-and-jobs/technical-lead-pm.html">Technical Lead/Project Manager</a>
                 </div>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="../group-reflection.html">Group Reflection</a>
+                <a class="nav-link" href="../meetings.html">Meetings</a>
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Reflections</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="../reflections/group-reflection.html">Group Reflection</a>
+                    <a class="dropdown-item" href="../reflections/personal-reflection.html">Personal Reflections</a>
+                </div>
               </li>
             </ul>
           </div>
@@ -435,19 +443,20 @@
               foundation and even the further development of a web application, they would
               in no way suffice to create a native one. As the main platforms required to
               create said application are SwiftUI and JavaFX, which in both, the team holds
-              limited knowledge.</p>
+              limited knowledge.
+            </p>
             <h1>Back-end and Design</h1>
             <p>The ultimate goal of technology is to give individuals the opportunity to fulfil tasks that may have at one point required great amounts of effort, effortlessly. The functionality of an application is crucial to the success of the company, despite the UI/UX design as, “without solid backend support, a great-looking frontend can easily fail. No matter how enticing a webpage looks at first glance, visitors will eventually turn away if the functions are compromised” (Nora Kramer Designs, 2021) Nora Kramer enlightens us regarding the impact that a functional backend has on a user and its vitality regarding the frequency of user returns. Various programming languages and platforms must be used in order to ensure the success of Budget Hub and complete functionality  resulting in widespread usage of this application.
             </p>
             <h2>Programming Languages</h2>
-            <h3>Python 3.9.5 And Selenium Web scraping - <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+            <h3>Python 3.9.5 And Selenium Web scraping - <a href="https://www.python.org/doc/essays/blurb/" target="_blank">Link</a></h3>
             <p>
               The tool used in order to retrieve information regarding the stores, their prices, items and images was a Python script along with a selenium module.
             </p>
               <ul>
                 <li>Python 3.9.5 And Selenium Web scraping</li>
                 <p>
-                  Selenium is an open-source module, its main intention is to test backend software, although this is its main function, it may also be used in order to scrape web pages. In this project we used the Selenium open-source module in order to implement the retrieval of images and information on the products listed from various web pages. As python does not require compilation, it is deemed a quick language that takes little memory to run, it is for this reason that this language was chosen to be used, as processing large amounts of data can be a rather strenuous and time-consuming task with alternate languages.
+                  Selenium is an open-source module, its main use is to test backend software, although this is its main function, it may also be used in order to scrape web pages. In this project we used the Selenium open-source module in order to implement the retrieval of images and information on the products listed from various web pages. As python does not require compilation, it is deemed a quick language that takes little memory to run, it is for this reason that this language was chosen to be used, as processing large amounts of data can be a rather strenuous and time-consuming task with alternate languages.
                 </p>
                 <li>Alternate Possibilities </li>
                 <p>
@@ -462,7 +471,7 @@
                   Another alternative would have been to request access to the databases of the store. This may have been feasible if the layout of acquired data was usable, contrastingly it would be redundant as the data on the web pages reflect the database stock log, prices, and images. Furthermore, security concerns may be raised when requesting access to store databases.
                 </p>
               </ul>
-              <h3> Java DK 17  <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+              <h3> Java DK 17  -  <a href="https://www.java.com/en/download/help/whatis_java.html" target="_blank">Link</a></h3>
               <p>
                 Java is a backend language used to create and maintain android native applications, its datatypes are all strictly enforced and mentioned at declaration/initialization. The data type in the image shown below has been set to an integer, therefore, the type will not vary during runtime, the line proceeding is not mandatory as values may vary during runtime hence the name (variable).
               </p>
@@ -470,8 +479,8 @@
               <p>
                 Therefore “You end up writing less code, but your code is more elegant and precise.” Java utilizes the object-oriented paradigm as a foundation upon which it stands. Therefore, the program may be maintained and built by various programmers at once whilst simultaneously maintaing  cohesion as various classes and packages would be administered to different teams. Java is also fond of inheritance and polymorphism that go hand in hand and are mutually exclusive, this means that sub/child-classes may inherit methods and variables that are declared in the parent class, further adding to the elegance and precision that this program will hold. The MVC (Model View Controller) software design pattern will be used as it separates packages and classes into appropriate usages, thus ensuring effortless maintenance, collaboration, High cohesion, and loose coupling.
               </p>
-              <ul>
                 <h5>MVC Software Design Pattern</h5>
+                <ul>
                 <p>
                   <ol type "I">
                     <li><b>UI(View)</b> is the package that simply displays information to the user in a formatted layout whilst simultaneously retrieving user input and passing it into the controller. The view will withhold minimum business logic and restrictive operators, as these must be held in the controller, although this is the case, it is crucial to have input restrictions within the View that contain logic to restrict absurd user input. </li>
@@ -481,6 +490,7 @@
                     <li><b>The Model</b> is simply the backend where all the custom datatypes and data structures(classes), are created and managed. All the data is stored here, and the model will contain little to no business logic and will remain as small as possible. </li>
                     <br/>
                   </ol>
+                </ul>
 
                   <h5>Intended Uses</h5>
                   <p>
@@ -498,12 +508,11 @@
                   Alternate software design patterns may include MVVM (ModelViewViewModel) and MVP(ModelViewPresenter).
                   </p>
               </ul>
-              <h3> Swift 5.5 <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
-
+              <h3> Swift 5.5  -  <a href="https://developer.apple.com/swift/" target="_blank">Link</a></h3>
               <p>
                 As the Budget Hub application shall follow a native approach, two languages will be used to establish and ensure compatibility with the two main operating systems. Swift is the main language supported by Apples Operating System. It replaced a language named Objective – C and is known to be safe, quick, and easy to develop with.
               </p>
-              <h5>Inferred Datatypes and syntax benefits </h5>
+              <h5>Inferred Datatypes and syntax benefits</h5>
                 <p>
                   This language infers datatypes meaning that unlike many alternate languages where you must mention e.g., String example = “example”, a developer may simply declare a variable with the keyword “var”, this opens various possibilities as a condition may result in said declared variable, being initialized to a Boolean (“True/False”) or an integer (12), another popular language that utilizes this concept successfully is python. Swift also does not require semi – colons thus making the development process easier.
                   <br/>
@@ -539,7 +548,7 @@
                   <p>
                   Before Swift, Objective C was used for a majority of IOS applications. Contrastingly, Objective C is outdated, and no longer receives support from IOS, preceding the introduction of Swift.
                   </p>
-                  <h3> MySQL <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+                  <h3> MySQL  -  <a href="https://dev.mysql.com/doc/" target="_blank">Link</a></h3>
                   <p>
                   MySQL is a relational database Management system, or “RDBMS” for short. It was named after its founder's daughter and  simply put it is, ‘an open-source database management system that enables users to maintain and manage their own web database systems.’ It is free of charge and may be customized according to the requirements of each individual user, or company. It is written in C and C++, and “can work on different platforms like Microsoft Windows, Oracle Solaris, AIX, Symbian, Linux, MAC OS” (What Is MySQL And Why It Is Used?, 2021) The first question that may be raised when handing over, not only mass amounts, but extremely sensitive data, is “Is this a secure and private platform that this organization can trust?”
                   </p>
@@ -553,11 +562,11 @@
                   <p>
                   Furthermore, as previously mentioned, due to the fact that MySQL does not hold the key required to unencrypt the data stored on their platform, it is ensured to the user and organization that their data is protected from all threats. On top of said security features that have been implemented that essentially make it impossible to unencrypt data, authentication measures are also executed. It would be optimal to use MySQL for a web application, but despite this fact, it is still usable for an android application that would then use PHP in order to access the data stored in the database. The data that will be stored in said databases may be sign in details/credentials, previous purchases, store preferences, application credits etc. Thus, making this database vital for the success of the application.
                   </p>
-                  <h3> GitHub <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+                  <h3> GitHub - <a href="https://github.com/" target="_blank">Link</a></h3>
                   <p>
                     The GitHub framework has revolutionized the way that programmers collaborate, it has now become standardized. This collaborative platform will be used in the further development of Budget Hub, as it, not only makes collaboration easier and efficient but also far safer. This is due to the version control that GitHub provides, said version control allows the user to access different instances of the repository in case of failure or unwanted code. It is also   required that all programmers know how to use the command line in order to push and commit to a repository. This is due to the limitations that GitHub Desktop places on its users.
                   </p>
-                  <h3> JIRA <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+                  <h3> JIRA  -  <a href="https://www.atlassian.com/software/jira/guides/use-cases/what-is-jira-used-for" target="_blank">Link</a></h3>
                   <p>
                     The JIRA platform is a collaborative software tool, allowing programming teams to pass their program through different phases/stories according to the sequence they choose to follow. In the beginning there will be a meeting between the programmers using the Fibonacci sequence in order to determine the level of difficulty to build the software required. After the meeting, the program will begin with JIRA allowing the team to either create their own project sequence or use the one they supply. Task allocation will all be managed by JIRA whilst simultaneously displaying the progress and priorities of said tasks such use of Kanban board in order to display and visually represent each team member's performance, and possibly re-allocate tasks depending on each person's workload. JIRA cultivates the same type of benefits.
                     <br/>
@@ -575,7 +584,7 @@
                   <p>
                     As shown in the image above, the website encouraged the use of a standard subscription, due to the hypothetically small number of members in the app development team. The price is $7.50 per person which would equate to about $1800 per year
                   </p>
-                  <h3> IntelliJ - <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+                  <h3> IntelliJ - <a href="https://www.jetbrains.com/idea/" target="_blank">Link</a></h3>
                   <p>
 
 
@@ -584,7 +593,7 @@
                     <br/>
                    It has three modes, compensating for all types of programming preferences, including a high contrast mode, a dark theme mode and the widespread despised light mode. It has different appearances also, that Its debugging tools use smart annotations, revealing where an error may occur, and the Boolean results in a specific statement, it also provides a list of variables and their contents. In the end of the day, Java is Java, and the quality of the code will not vary much depending on the IDE, with that being said the Java developers will be granted not only the community edition of the IDEA but “a proprietary commercial edition.” (Best Java IDE 2021 | Most Popular Java IDE for Coding, 2021). The paid “Ultimate” version of this IDE is approximately $500 a year per user.
                   </p>
-                  <h3> XCode  - <a href="https://html.spec.whatwg.org/" target="_blank">Link</a></h3>
+                  <h3> XCode  -  <a href="https://developer.apple.com/xcode/" target="_blank">Link</a></h3>
 
                   <p>
                     XCode is a platform most commonly used for IOS Swift application development, XCode is the foundation upon which many IOS developing teams stand upon, utilizing its fullest potential as a platform that not only provides nice appearance and minute features, but also effectively integrates SwiftUI, in order to remove the requirement from the developers, to run the code on another platform, or a device, as XCode compiles and reveals the UI in the latest format. The developer may choose to view their application on different IOS devices, and closely analyze said application behavior accordingly.
@@ -601,9 +610,9 @@
                     <ol type  ="I">
                       <li>CPU: Intel i7</li>
                       <li>GPU: Not necessarily required, may use CPU graphics, but not recommended </li>
-                      <li>RAM: DDR4 16 GBs or more.</li>
+                      <li>RAM: DDR4 16GB or more.</li>
                       <li>Storage: Minimum of 500 GB of SSD storage.  </li>
-                      <li>Screen size: Minimum of one screen 15” Two screens, one landscape and the other portrait recommended. </li>
+                      <li>Screen size : Minimum of one screen 15” Two screens, one landscape and the other portrait recommended. </li>
                     </ol>
                     <li>•	Suggested Systems and Costs:</li>
                     <ol type  ="I">
