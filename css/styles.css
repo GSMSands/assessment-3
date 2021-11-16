@@ -213,3 +213,8 @@ h1, h2, h3, h4, h5 {
     padding: 1em 0;
   }
 }
+
+.references {
+  word-wrap: break-word;
+  margin: 1em;
+}
