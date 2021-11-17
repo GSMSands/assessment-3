@@ -81,8 +81,11 @@ html {
     min-height: 300px;
     border-radius: 21px;
     margin-bottom: 4em;
-
   }
+
+  .content-section .container {
+    overflow-y: auto;
+  } 
 
   .content-section p, ul {
     padding: 1em;
@@ -217,4 +220,8 @@ h1, h2, h3, h4, h5 {
 .references {
   word-wrap: break-word;
   margin: 1em;
+}
+
+.table {
+  min-width: 520px;
 }
